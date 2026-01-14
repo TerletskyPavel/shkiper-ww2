@@ -1,0 +1,42 @@
+a {
+	color:orange;
+	font-size: 30px;
+}
+
+.tablica {
+	border: solid 5px orange;
+	background-color:#DCDCDC;
+}
+table{
+	color:black;
+}
+
+#delfin {
+	opacity:0.5;
+}
+
+#gif:hover {
+	width:510px;
+	height:490px;
+}
+
+audio{
+	border:2px solid black;
+	background:orange;
+}
+
+body {
+    background: linear-gradient(to bottom,
+                #F4F5F7 0%,
+                #BCDEE6 80%,
+                #198596 120%);
+    min-height: 100vh;
+}
+
+img {
+	border:3px solid orange;
+}
+
+#tap {
+	border:3px solid orange;
+}
