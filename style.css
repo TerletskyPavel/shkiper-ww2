@@ -1,5 +1,4 @@
-/* СТИЛИ БУРГЕР-МЕНЮ */
-#burgerBtn {
+﻿#burgerBtn {
     position: fixed;
     top: 15px;
     left: 15px;
@@ -86,7 +85,7 @@
     transform: translateX(5px);
 }
 
-/* ВАШИ СТАРЫЕ СТИЛИ */
+
 a {
     color: orange;
     font-size: 30px;
@@ -132,4 +131,21 @@ img {
     border: 3px solid orange;
     margin-top: 20px;
     padding: 20px;
+}
+
+@media (max-width: 768px) {
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .tablica {
+    font-size: 14px;
+    overflow-x: auto;
+  }
+  
+  #gif {
+    width: 100% !important;
+    height: auto !important;
+  }
 }
